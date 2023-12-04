@@ -34,5 +34,5 @@ def get_solution_part2(data: List[str]) -> int:
 
 if __name__ == '__main__':
     input = open('input.txt').read().splitlines()
-    answer = get_solution_part2(input) if environ.get('part') == 'part2' else get_solution_part2(input)
+    answer = get_solution_part2(input) if environ.get('part') == 'part2' else get_solution_part1(input)
     print(answer)
